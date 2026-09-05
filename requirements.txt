@@ -3,6 +3,7 @@ scikit-learn
 pandas
 numpy
 joblib
+beautifulsoup4
 matplotlib
 requests
 shap
