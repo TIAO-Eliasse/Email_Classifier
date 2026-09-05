@@ -1,0 +1,12 @@
+email_id,predicted_category,top_driving_features,true_category,margin,entropy
+43,Account Management,setup (0.12) | online (0.09) | banking (0.09) | bool_features__is_department_greeting (-0.05) | loan (0.04),Account Management,0.22602009389352673,1.7396179357828085
+27,Investment Advisory,risk (0.12) | assessment (0.12) | bool_features__is_department_greeting (0.08) | loan (0.03) | schedule (0.03),Investment Advisory,0.20007353405037404,1.9171119602045283
+13,Loan Processing,loan (0.26) | business (0.18) | bool_features__is_department_greeting (0.08) | business (0.03) | bool_features__is_internal_sender (-0.03),Loan Processing,0.09925349975838355,1.8710565059560453
+33,Loan Processing,loan (0.22) | refinancing (0.14) | student (0.14) | bool_features__is_department_greeting (-0.05) | business (-0.04),Loan Processing,0.23800666932798437,1.7855616122848632
+46,Investment Advisory,dividend (0.10) | plan (0.10) | reinvestment (0.10) | bool_features__is_department_greeting (0.08) | loan (0.03),Investment Advisory,0.02315286547356399,1.9605943689585374
+12,Investment Advisory,market (0.21) | analysis (0.16) | bool_features__is_department_greeting (-0.15) | investment (0.05) | request (-0.04),Investment Advisory,0.4188541985480715,1.7960300516933425
+3,Loan Processing,application (0.14) | mortgage (0.12) | status (0.12) | loan (-0.09) | bool_features__is_internal_sender (0.08),Loan Processing,0.12488003354787519,2.0422356653458826
+28,Loan Processing,application (0.14) | credit (0.13) | card (0.13) | loan (-0.09) | bool_features__is_department_greeting (-0.05),Loan Processing,0.12849995893146254,1.8972068793322763
+38,Loan Processing,loan (0.23) | business (0.16) | small (0.12) | bool_features__is_department_greeting (0.08) | business (0.06),Loan Processing,0.13378118803127753,1.8678041838004342
+6,Account Management,request (0.16) | password (0.09) | reset (0.09) | bool_features__is_department_greeting (0.08) | account (0.04),Account Management,0.3854594057714622,1.7717977447501625
+52,Investment Advisory,portfolio (0.14) | rebalancing (0.14) | bool_features__is_department_greeting (0.08) | portfolio (0.04) | loan (0.03),Investment Advisory,0.21375030391867508,1.9621454714053426

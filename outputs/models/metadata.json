@@ -1,0 +1,46 @@
+{
+  "model_type": "LinearSVC",
+  "text_representation": "separated",
+  "text_columns": [
+    "subject",
+    "message"
+  ],
+  "structured_features": [
+    "is_internal_sender",
+    "is_internal_signature",
+    "is_department_greeting",
+    "question_mark_count"
+  ],
+  "classes": [
+    "Account Management",
+    "Insurance Claims",
+    "Investment Advisory",
+    "Loan Processing",
+    "Other"
+  ],
+  "n_samples": 44,
+  "f1_macro_cv_mean": 0.9472380952380952,
+  "f1_macro_cv_std": 0.07602744462101108,
+  "cv_scores_all": [
+    1.0,
+    0.8047619047619048,
+    0.9314285714285715,
+    1.0,
+    1.0
+  ],
+  "notes": "Best performer from 02_modelling comparison. Use for calibration.",
+  "calibration_method": "Platt Scaling (sigmoid)",
+  "calibration_cv_folds": 3,
+  "calibration_notes": "cv=3 used instead of cv=5 due to small class sizes (N=44)",
+  "average_brier_improvement": 26.11064031292927,
+  "brier_improvement_by_class": {
+    "Account Management": 13.564773330606487,
+    "Insurance Claims": 36.985939097040095,
+    "Investment Advisory": 1.4856582697979401,
+    "Loan Processing": 43.13677908247529,
+    "Other": 35.38005178472653
+  },
+  "routing_threshold": 0.575,
+  "routing_auto": 33,
+  "routing_defer": 11
+}

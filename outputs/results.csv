@@ -1,0 +1,13 @@
+email_id,predicted_category,confidence_score
+35,Other,0.71
+2,Investment Advisory,0.6676
+8,Loan Processing,0.7508
+41,Account Management,0.7691
+44,Investment Advisory,0.8227
+7,Investment Advisory,0.7395
+53,Account Management,0.794
+9,Insurance Claims,0.8317
+15,Other,0.7401
+16,Account Management,0.7274
+18,Loan Processing,0.7292
+48,Investment Advisory,0.6216

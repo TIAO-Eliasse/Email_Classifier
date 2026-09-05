@@ -1,0 +1,35 @@
+{
+  "total_samples": 44,
+  "total_features": 697,
+  "num_classes": 5,
+  "classes": [
+    "Account Management",
+    "Insurance Claims",
+    "Investment Advisory",
+    "Loan Processing",
+    "Other"
+  ],
+  "top_5_global_features": [
+    {
+      "feature": "num_features__question_mark_count",
+      "importance": 0.14655322295391277
+    },
+    {
+      "feature": "bool_features__is_internal_signature",
+      "importance": 0.10555562325259825
+    },
+    {
+      "feature": "bool_features__is_department_greeting",
+      "importance": 0.08794362828284179
+    },
+    {
+      "feature": "account",
+      "importance": 0.05977370119334579
+    },
+    {
+      "feature": "insurance",
+      "importance": 0.042677900694361975
+    }
+  ],
+  "explainability_method": "SHAP (Linear Explainer)"
+}
