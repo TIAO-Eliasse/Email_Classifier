@@ -17,14 +17,12 @@ pip install -r requirements.txt
 
 Command line (this is the main way to run it — no browser needed):
 ```bash
-python main.py train      # ingest train/ + train_labels.csv, fit, calibrate,
-                           # pick the auto-forward/defer-to-human threshold
 python main.py predict    # classify test/, write outputs/results.csv
 ```
 
 There's also a small web UI if you'd rather click than type:
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 It just wraps `main.py`'s train/predict calls — I didn't want two
 copies of the pipeline logic floating around, so the app and the CLI
